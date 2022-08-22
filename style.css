@@ -1,0 +1,82 @@
+body{
+    background-image:url(bg\ new\ dark.png);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+ h1{
+    color: rgb(251, 255, 0);
+    margin-top:100px;
+    font-size:3rem;
+    margin-top: 120px;
+}
+.text{
+    color: rgb(255, 255, 255);
+    font-size:2rem;
+    font-weight: bolder;
+}
+.rules{
+    color: rgb(255, 255, 255);
+    font: size 1rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.rules:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(163, 200, 249);
+    text-underline-offset: 5px;
+}
+.start-btn{
+    background-color:rgb(249, 255, 71);
+    color:rgb(19, 51, 33);
+    cursor:pointer;
+    padding: 15px 30px;
+    border: none;
+    font-size:1.5rem;
+    font-weight:bold;
+}
+.start-btn:hover{
+    background-color:rgb(245, 220, 0); 
+}
+.restart-btn{
+    background-color:rgb(52, 235, 255);
+    color:rgb(19, 51, 33);
+    cursor:pointer;
+    padding: 15px 30px;
+    border: none;
+    font-size:1.5rem;
+    font-weight:bold;
+}
+.restart-btn:hover{
+    background-color:rgb(0, 199, 249); 
+}
+.add-btn{
+    background-color:rgb(86, 255, 151);
+    color:rgb(19, 51, 33);
+    cursor:pointer;
+    padding: 15px 30px;
+    border: none;
+    font-size:1.5rem;
+    font-weight:bold;
+}
+.add-btn:hover{
+    background-color:rgb(0, 255, 98); 
+}
+
+/* @media screen and (max-width:1072px){
+    body{
+        background-image: url(Bg.avif);
+        background-repeat:no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-size: 400%;
+    }
+}*/
+@media screen and (max-width:662px){
+    button{
+        margin: 5px 0;
+    }
+}

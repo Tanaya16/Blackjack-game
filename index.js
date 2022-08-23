@@ -68,6 +68,5 @@ function rules(){
     let ruleOne = "1] If your sum is exact 21 then your the winner. \n\n"
     let ruleTwo = "2] If your sum is less than 21 then you can draw a new card. \n\n"
     let ruleThree = "3] If your sum is greater than 21 then your out of the game. \n\n"
-    let ruleFour = "4] Refresh the page to play again"
-    rulesEl.innerText =ruleOne + ruleTwo + ruleThree + ruleFour
+    rulesEl.innerText =ruleOne + ruleTwo + ruleThree
 }
